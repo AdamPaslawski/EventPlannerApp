@@ -1,8 +1,8 @@
-#CSC207H1F 20209 Project 
-###Phase 2
-######December 7, 2020
+# CSC207H1F 20209 Project 
+# Phase 2
+### December 7, 2020
 
-####group 0162
+#### group 0162
 Adam Paslawski\
 Chelsea Mitchell\
 Warren Liu\
