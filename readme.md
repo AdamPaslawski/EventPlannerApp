@@ -1,8 +1,6 @@
-# CSC207H1F 20209 Project 
-# Phase 2
-### December 7, 2020
+# Event Planner App 
 
-#### group 0162
+#### Collaborators
 Adam Paslawski\
 Chelsea Mitchell\
 Warren Liu\
@@ -23,26 +21,14 @@ that demonstrates the extendability of our program, which provides a data export
 * Packaging wise, we used a clean architecture layer packaging system except the GUI, which we believed was best to be packaged separate to the rest of the program as its role is very focused.
 
 ## To setup database access on your machine
-* Go to File ->
-* project structure->
-* libraries->
-* Click the little "+" symbol
-* ->maven->
-* "mysql:mysql-connector-java:8.0.11"
-* This will setup the driver for the JDBC connection to the MySQL database
+You must enable the driver for the MySQL JDBC database connection.
+* An example driver that works is "mysql:mysql-connector-java:8.0.11"
+
 ## To run the program:
 
 * To run the program, navigate to /src/GUI/DisplayMain.java
 * Execute the run through an IDE or through the command line
 * Our program's access point is through DisplayMain
-* All options will be provided on the GUI for testing.
-
-
-### Key documentation:
-* The write ups will be contained within the folder labeled WriteUps
-* The UML will be included within the UML Diagrams package.
-* To contact us, please see our contact information on MarkUs
-
 
 #### Key Design Choices:
 * For many of our classes, to follow a MVC architecture 
@@ -55,22 +41,6 @@ enforce dependency rules and invert when necessary.
 * Design patterns were only introduced when they did 
 not overcomplicate the code or provide for 
 useless functionality.
-
-#### Final Notes:
-Happy exploring!
-
-No, honestly, have fun with our code! And if you're feeling generous,
-please feel free to award us in a numerical manner xD
-
-This project has been a fun challenge. A lot of work, but in the end, we persevered
-and eliminated the issues plaguing us in phase 1. This has been countless hours of work,
-figuring out design patterns. We would like to thank 
-all of the team, Shiva (our wonderful TA who's helped us through hell and back), and Lindsey and Jonathan 
-for helping us develop these skills!
-
-120 files, and a metric ton of classes later... 
-
-Woohoo! Great Success! 
 
 Yours Truly, \
 Group 0162
